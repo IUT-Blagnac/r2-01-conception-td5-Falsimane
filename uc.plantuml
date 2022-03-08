@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @startuml UC
 
 usecase c as "Gérer ses chantiers."
@@ -18,4 +19,26 @@ Direction -> a
 RessourcesHumaines -> p
 RessourcesHumaines -> g
 
+=======
+@startuml UC
+
+usecase c as "Gérer ses chantiers"
+usecase g as "Gérer ses artisans"
+usecase a as "Affectation des artisans"
+usecase p as "Calculer la paye des artisans"
+
+actor Direction
+actor RessourcesHumaines
+
+'Pour aligner les 2 acteurs :
+a -[hidden]-> g
+p -[hidden]-> a
+
+Direction -> c
+Direction -> a
+
+RessourcesHumaines -> p
+RessourcesHumaines -> g
+
+>>>>>>> 7780f2011ca1a4340098cd1b01b0ce790c102c40
 @enduml

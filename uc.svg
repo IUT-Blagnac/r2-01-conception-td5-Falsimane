@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="321px" preserveAspectRatio="none" style="width:654px;height:321px;background:#FFFFFF;" version="1.1" viewBox="0 0 654 321" width="654px" zoomAndPan="magnify"><defs/><g><g id="elem_c"><ellipse cx="559.2915" cy="179.6583" fill="#F1F1F1" rx="88.7915" ry="20.1583" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="489.7915" y="182.505">Gérer ses chantiers</text></g><g id="elem_g"><ellipse cx="201.495" cy="296.699" fill="#F1F1F1" rx="83.995" ry="19.199" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="137.2335" y="299.6356">Gérer ses artisans</text></g><g id="elem_a"><ellipse cx="331.6177" cy="179.6235" fill="#F1F1F1" rx="103.6177" ry="23.1235" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="245.6177" y="182.4702">Affectation des artisans</text></g><g id="elem_p"><ellipse cx="323.5271" cy="43.3054" fill="#F1F1F1" rx="117.0271" ry="25.8054" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="223.0271" y="46.1521">Calculer la paye des artisans</text></g><!--MD5=[5c3eb52c60f12da6f49da41914091a68]
+entity Direction--><g id="elem_Direction"><ellipse cx="159.5" cy="150" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M159.5,158 L159.5,185 M146.5,166 L172.5,166 M159.5,185 L146.5,200 M159.5,185 L172.5,200 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="126" y="214.4951">Direction</text></g><!--MD5=[fa1b8e3308612d6af658caa7047b1f59]
+entity RessourcesHumaines--><g id="elem_RessourcesHumaines"><ellipse cx="80.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M80.5,22 L80.5,49 M67.5,30 L93.5,30 M80.5,49 L67.5,64 M80.5,49 L93.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="6" y="78.4951">RessourcesHumaines</text></g><!--MD5=[93a6f849698785316f56cd0681f1804c]
+link a to g--><!--MD5=[58a7335b5ca1d0f7792503c4beb300d9]
+link p to a--><!--MD5=[4f6413840460a66f7d7abf58838c537e]
+link Direction to c--><g id="link_Direction_c"><path d="M187.884,141.275 C198.942,129.422 212.662,117.82 228,111.5 C313.061,76.449 345.859,88.743 435,111.5 C469.596,120.332 504.936,140.969 529.082,157.208 " fill="none" id="Direction-to-c" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="533.458,160.185,528.2684,151.8143,529.3245,157.3717,523.7672,158.4279,533.458,160.185" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4b471ddf253cf7e52b6ac6f5287eb08b]
+link Direction to a--><g id="link_Direction_a"><path d="M193.094,179.5 C202.992,179.5 212.891,179.5 222.789,179.5 " fill="none" id="Direction-to-a" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="227.966,179.5,218.966,175.5,222.966,179.5,218.966,183.5,227.966,179.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f8cb8158421ab72cceef8cf65f713f01]
+link RessourcesHumaines to p--><g id="link_RessourcesHumaines_p"><path d="M155.014,43.5 C170.388,43.5 185.762,43.5 201.136,43.5 " fill="none" id="RessourcesHumaines-to-p" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="206.349,43.5,197.349,39.5,201.349,43.5,197.349,47.5,206.349,43.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[574d27e45edffa19382559868c3fce1a]
+link RessourcesHumaines to g--><g id="link_RessourcesHumaines_g"><path d="M79.2172,81.727 C79.5575,118.533 84.5271,175.306 108.5,217.5 C122.398,241.9607 147.092,262.122 167.543,275.8157 " fill="none" id="RessourcesHumaines-to-g" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="171.838,278.6388,166.5156,270.352,167.6602,275.8918,162.1204,277.0364,171.838,278.6388" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[121784f9ef9aa91764a524b2e71b9bc5]
+@startuml
+usecase c as "Gérer ses chantiers"
+usecase g as "Gérer ses artisans"
+usecase a as "Affectation des artisans"
+usecase p as "Calculer la paye des artisans"
+
+actor Direction
+actor RessourcesHumaines
+
+'Pour aligner les 2 acteurs :
+a -[hidden]-> g
+p -[hidden]-> a
+
+Direction -> c
+Direction -> a
+
+RessourcesHumaines -> p
+RessourcesHumaines -> g
+@enduml
+
+@startuml
+usecase c as "Gérer ses chantiers"
+usecase g as "Gérer ses artisans"
+usecase a as "Affectation des artisans"
+usecase p as "Calculer la paye des artisans"
+
+actor Direction
+actor RessourcesHumaines
+
+a -[hidden]-> g
+p -[hidden]-> a
+
+Direction -> c
+Direction -> a
+
+RessourcesHumaines -> p
+RessourcesHumaines -> g
+@enduml
+
+PlantUML version 1.2022.2(Sat Mar 05 16:30:19 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
