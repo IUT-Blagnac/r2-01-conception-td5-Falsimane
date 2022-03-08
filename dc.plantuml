@@ -1,5 +1,41 @@
 @startuml
 
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam arrow {
+    MessageAlign center
+}
+
+class Entreprise{
+
+}
+
+
+
+
+class Artisan{
+
+}
+
+class Chantier{
+
+}
+
+
+Entreprise "1" -- "1..*" Artisan : Possède
+Entreprise "1" -- "*" Chantier : Gérer
+Artisan "*" -- "*" Chantier : Affecter
+
+
+@enduml
 
 
 
