@@ -1,0 +1,19 @@
+```plantuml
+@startuml UC
+
+usecase r as "Gérer \n les chantiers"
+usecase d as "Gérer \n les artisans"
+usecase e as "Affectation à des \n chantiers"
+usecase f as "Gérer \n les artisans"
+
+actor Système
+
+'Pour aligner les 2 acteurs :
+r -[hidden]-> d
+
+Système -> d
+Système -> r
+Système -> 
+
+@enduml
+```
