@@ -3,7 +3,7 @@
 usecase c as "Gérer ses chantiers"
 usecase g as "Gérer ses artisans"
 usecase a as "Affectation des artisans"
-usecase p as "Calculer la paye des artisans"
+usecase p as "Calculer la paye des artisans."
 
 actor Direction
 actor RessourcesHumaines
