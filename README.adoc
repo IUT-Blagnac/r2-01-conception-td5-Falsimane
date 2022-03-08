@@ -1,5 +1,5 @@
 = Diagrammes de UC avec plantUML
-Jean-Michel Bruel <jbruel@gmail.com>
+Thomas Falsimagne <falsimagne.thomas@gmail.com>
 v1.0, 2022-03-06 : Initial draft
 :icons: font
 :diagrams: .
@@ -30,11 +30,11 @@ Ce TP vise à reprendre les diagrammes des UC et les lier avec le diagramme de c
 
 == À propos...
 
-NOM:: DOE
+NOM:: Falsimagne
 
-Prénom:: John
+Prénom:: Thomas
 
-Groupe #::
+Groupe #:: 4A
 
 [%interactive]
 - [X] Enseignants
