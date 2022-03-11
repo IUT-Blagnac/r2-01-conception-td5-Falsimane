@@ -1,42 +1,53 @@
-@startuml
-
-@startuml test
+@startuml dc
 
 hide circle
 hide empty members
 hide empty methods
 
 skinparam classAttributeIconSize 0
-
 skinparam roundcorner 5
+
+skinparam class {
+    BackgroundColor AliceBlue
+    BorderColor DarkSlateGray
+    ArrowColor Black
+    FontColor Black
+    FontSize 12
+    FontName Helvetica
+}
 
 skinparam arrow {
     MessageAlign center
 }
 
-class Entreprise{
 
+class Entreprise {
+    nbEmploye: int
 }
 
 
-
-
-class Artisan{
-
+class Artisan {
+    specialite: String
+    salaireHoraire: double
+    coordonnees: Coordonnees
 }
 
-class Chantier{
-
+class Chantier {
+    dateDebut: Date
+    dateFin: Date
+    adresse: Adresse
 }
 
+class Affecter {
+    nbHeures: double
+    dateDebutMission: Date
+    dateFinMission: Date
+    getPayeArtisan()
+}
 
-Entreprise "1" -- "1..*" Artisan : Possède
-Entreprise "1" -- "*" Chantier : Gérer
-Artisan "*" -- "*" Chantier : Affecter
-
-
-@enduml
-
-
+Entreprise "1" -- "0..*" Artisan : Gérer
+Entreprise "1" -- "0..*" Chantier : Gérer
+Artisan "0..*" -- "0..*" Chantier
+(Artisan, Chantier) .. Affecter
 
 @enduml
