@@ -1,0 +1,42 @@
+@startuml dc
+
+hide circle
+hide empty members
+hide empty methods
+    
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+class Entreprise {
+    nbEmployés: int
+}
+
+
+class Artisan {
+    specialité: String
+    salaireHoraire: double
+    coordonnées: Coordonnees
+}
+
+class Chantier {
+    dateDebut: Date
+    dateFin: Date
+    adresse: Adresse
+}
+
+class Affecter {
+    nbHeures: double
+    dateDebutMission: Date
+    dateFinMission: Date
+    getPayeArtisan()
+}
+
+Entreprise "1" -- "0..*" Artisan : Gérer
+Entreprise "1" -- "0..*" Chantier : Gérer
+Artisan "0..*" -- "0..*" Chantier
+(Artisan, Chantier) .. Affecter
+
+@enduml

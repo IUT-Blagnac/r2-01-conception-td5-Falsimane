@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="518px" preserveAspectRatio="none" style="width:285px;height:518px;background:#FFFFFF;" version="1.1" viewBox="0 0 285 518" width="285px" zoomAndPan="magnify"><defs/><g><!--MD5=[e5da348f9a286ac789819f64e84f1dc7]
+class Entreprise--><g id="elem_Entreprise"><rect codeLine="22" fill="#F0F8FF" height="45.9375" id="Entreprise" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="101" x="160" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="62" x="179.5" y="23.1387">Entreprise</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="161" x2="260" y1="30.9688" y2="30.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="89" x="166" y="46.1074">nbEmploye: int</text></g><!--MD5=[e8de2477f0619782a88ba6174d99456f]
+class Artisan--><g id="elem_Artisan"><rect codeLine="27" fill="#F0F8FF" height="73.875" id="Artisan" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="183" x="7" y="130"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="41" x="78" y="146.1387">Artisan</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="8" x2="189" y1="153.9688" y2="153.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="101" x="13" y="169.1074">specialite: String</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="135" x="13" y="183.0762">salaireHoraire: double</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="171" x="13" y="197.0449">coordonnees: Coordonnees</text></g><!--MD5=[7231450f633845da6e92cf0373678125]
+class Chantier--><g id="elem_Chantier"><rect codeLine="33" fill="#F0F8FF" height="73.875" id="Chantier" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="121" x="136" y="438"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="49" x="172" y="454.1387">Chantier</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="137" x2="256" y1="461.9688" y2="461.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="99" x="142" y="477.1074">dateDebut: Date</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="80" x="142" y="491.0762">dateFin: Date</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="109" x="142" y="505.0449">adresse: Adresse</text></g><!--MD5=[04d440ec53fb2cc018de6d91273d6939]
+class Affecter--><g id="elem_Affecter"><rect codeLine="39" fill="#F0F8FF" height="95.8438" id="Affecter" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="156" x="59.5" y="281"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="48" x="113.5" y="297.1387">Affecter</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="60.5" x2="214.5" y1="304.9688" y2="304.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="109" x="65.5" y="320.1074">nbHeures: double</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="144" x="65.5" y="334.0762">dateDebutMission: Date</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="125" x="65.5" y="348.0449">dateFinMission: Date</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="60.5" x2="214.5" y1="354.875" y2="354.875"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="99" x="65.5" y="370.0137">getPayeArtisan()</text></g><ellipse cx="22.5" cy="329" fill="#000000" rx="2" ry="2" style="stroke:none;stroke-width:1.0;"/><!--MD5=[73a869ac549d56a3a03d5079437b2a26]
+link Entreprise to Artisan--><g id="link_Entreprise_Artisan"><path codeLine="46" d="M192.005,53.293 C174.733,74.112 148.651,105.551 128.417,129.939 " fill="none" id="Entreprise-Artisan" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="165.5" y="96.0669">Gérer</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="178.5218" y="72.8895">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="108.8131" y="118.8137">0..*</text></g><!--MD5=[c2de7d0ee42670d9ff0a26fc84907427]
+link Entreprise to Chantier--><g id="link_Entreprise_Chantier"><path codeLine="47" d="M215.716,53.078 C227.935,108.22 255.753,256.221 233.5,377 C229.679,397.739 221.622,419.7821 213.999,437.6058 " fill="none" id="Entreprise-Chantier" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="241.5" y="247.0669">Gérer</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="208.0276" y="73.0055">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="192.0301" y="426.9787">0..*</text></g><!--MD5=[0769467ca5383e008f4301df54c53dea]
+link Artisan to apoint536003--><g id="link_Artisan_apoint536003"><path d="M79.3718,204.016 C67.9214,226.03 53.3406,254.885 41.5,281 C33.3591,298.955 24.9179,321.473 22.9348,326.822 " fill="none" id="Artisan-apoint536003" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="50.9162" y="224.0353">0..*</text></g><!--MD5=[6500357969ce78ed771013d52a7d54b3]
+link apoint536003 to Chantier--><g id="link_apoint536003_Chantier"><path d="M22.7226,331.311 C23.7859,337.239 28.8312,361.895 41.5,377 C66.8972,407.282 104.2514,431.0518 135.926,447.4816 " fill="none" id="apoint536003-Chantier" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="105.0429" y="440.7325">0..*</text></g><!--MD5=[88d9ef7e206958b16ae402343685bf34]
+link apoint536003 to Affecter--><g id="link_apoint536003_Affecter"><path d="M24.7461,329 C36.1977,329 47.6492,329 59.1008,329 " fill="none" id="apoint536003-Affecter" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[e81abd9bc8cf646c149e8da25e93f960]
+@startuml
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+skinparam roundcorner 5
+
+skinparam class {
+    BackgroundColor AliceBlue
+    BorderColor DarkSlateGray
+    ArrowColor Black
+    FontColor Black
+    FontSize 12
+    FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+class Entreprise {
+    nbEmploye: int
+}
+
+
+class Artisan {
+    specialite: String
+    salaireHoraire: double
+    coordonnees: Coordonnees
+}
+
+class Chantier {
+    dateDebut: Date
+    dateFin: Date
+    adresse: Adresse
+}
+
+class Affecter {
+    nbHeures: double
+    dateDebutMission: Date
+    dateFinMission: Date
+    getPayeArtisan()
+}
+
+Entreprise "1" - - "0..*" Artisan : Gérer
+Entreprise "1" - - "0..*" Chantier : Gérer
+Artisan "0..*" - - "0..*" Chantier
+(Artisan, Chantier) .. Affecter
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
